@@ -1,0 +1,69 @@
+/* Sidebar styling */
+.sidebar {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 0.3s;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+    color: #f1f1f1;
+}
+
+/* Toggle button */
+#toggle-btn {
+    background-color: #111;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 15px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.sidebar.open {
+    width: 250px;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff5c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.407);
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
